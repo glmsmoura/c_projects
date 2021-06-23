@@ -14,8 +14,10 @@ double main(){
     double result;
     int times;
     int i;
-    char operator[10]; 
+    char operator[2]; 
     
+
+    printf("Insert the number of calculations you will do ");
     scanf("%d", &times);
     for (i = 0; i < times; i++) {
         scanf ("%lf %s %lf", &operand1, operator, &operand2);
